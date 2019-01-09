@@ -4,8 +4,8 @@
  * Atividade.: Implementação da arvore TRIE
  * Disciplina: Estrutura de Dados II
  * Professor.: Luiz Eduardo da Silva
- * Aluno.....: Fulano da Silva
- * Data......: 99/99/9999
+ * Aluno.....: Luis Gustavo de Souza Carvalho
+ * Data......: 08/01/2019
  *-------------------------------------------------------------*/
 
 package trie.trabalho;
@@ -22,11 +22,8 @@ public class main {
         Scanner entrada = new Scanner(System.in, "ISO-8859-1");
         trie t = new trie();
         t.carregaDicionario("portuguese-brazil.txt");
-        if(t.contemPalavra("amorsdasf")){
-            System.out.println("Contem");
-        }else{
-            System.out.println("Não contém");
-        }
+        t.obtemPalavras("carros");
+        t.geraDot2("arvore.dot");
 
     }
 

@@ -4,10 +4,9 @@
  * Atividade.: Implementação da arvore TRIE
  * Disciplina: Estrutura de Dados II
  * Professor.: Luiz Eduardo da Silva
- * Aluno.....: Fulano da Silva
- * Data......: 99/99/9999
+ * Aluno.....: Luis Gustavo de Souza Carvalho
+ * Data......: 08/01/2019
  *-------------------------------------------------------------*/
-
 package trie.trabalho;
 
 import java.io.IOException;
